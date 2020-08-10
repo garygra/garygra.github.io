@@ -1,4 +1,3 @@
-RRT,,,,,,,,,,,,
 Iterations,min_steps,max_steps,Map,System,Problem,NumSols,FirstSolTime,FirstSolCost,FirstSolIters,FinalSolTime,FinalSolCost,FinalSolIters
 50000,100,1000,Berlin,rally_car,0,8,8.6275,51.8938,24395.25,12.2948,47.0825,34446
 50000,100,1000,Berlin,rally_car,1,0,-nan,-nan,-nan,-nan,-nan,-nan
