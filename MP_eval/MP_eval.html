@@ -66,7 +66,7 @@
          .enter().append("rect")
          .attr("class", "bar")
          .attr("x", function(d) { return xScale("RRT"); })
-         .attr("y", function(d) { return yScale(d.NumSols); })
+         .attr("y", function(d) { return yScale(d.NumSols *10); }) // Assuming 10 sols max
          .attr("width", xScale.bandwidth())
          .attr("height", function(d) { return height - yScale(d.value); });
 </script>
