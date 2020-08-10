@@ -6,10 +6,25 @@
 <body>
 Some text
 <script>
-	d3.csv("data/rrt.csv")
-  		.get(function(data) {
-  	    	console.log(data);
-  	});
+	d3.csv("data/rrt.csv", function(d) {
+  		return {
+  			Iterations: +d.Iterations,
+  			min_steps: +d.min_steps,
+  			max_steps: +d.max_steps,
+  			Map: d.Map,
+  			System: d.System,
+  			Problem: +d.Problem,
+  			NumSols: +d.NumSols,
+  			FirstSolTime: +d.FirstSolTime,
+  			FirstSolCost: +d.FirstSolCost,
+  			FirstSolIters: +d.FirstSolIters,
+  			FinalSolTime: +d.FinalSolTime,
+  			FinalSolCost: +d.FinalSolCost,
+  			FinalSolIters: +d.FinalSolIters,
+		};
+	}, function(error, rows) {
+  		console.log(rows);
+	});
 </script>
 </body>
 </html>
