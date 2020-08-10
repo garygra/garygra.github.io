@@ -6,8 +6,8 @@
 <body>
 Some text
 <script>
-	var width = 500;
-    var height = 500;
+	var width = 300;
+    var height = 300;
 
     //Create SVG element
     var svg = d3.select("body")
@@ -46,20 +46,23 @@ Some text
   		console.log(rows);
 	});
 
-	xScale.domain(["RRT, DIRT, RA*"]);
+	xScale.domain(["RRT", "DIRT", "RA*"]);
     yScale.domain([0, 100]);
     g.append("g")
          .attr("transform", "translate(0," + height + ")")
          .call(d3.axisBottom(xScale));
     g.append("g")
          .call(d3.axisLeft(yScale).tickFormat(function(d){
-             return "$" + d;
-         }).ticks(10))
-         .append("text")
-         .attr("y", 6)
-         .attr("dy", "0.71em")
-         .attr("text-anchor", "end")
-         .text("value");
+             return d;
+         }).ticks(10));
+    g.selectAll(".bar")
+         .data(data)
+         .enter().append("rect")
+         .attr("class", "bar")
+         .attr("x", function(d) { return xScale("RRT"); })
+         .attr("y", function(d) { return yScale(d.NumSols); })
+         .attr("width", xScale.bandwidth())
+         .attr("height", function(d) { return height - yScale(d.value); });
 </script>
 </body>
 </html>
