@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<style>
+        .bar {
+            fill: steelblue;
+        }
+    </style>
     <script src="https://d3js.org/d3.v4.min.js"></script>
 </head>
 <body>
-Some text
+	<p> Motion Planners Comparisons </p>
+	<svg width="600" height="500"></svg>
 <script>
-	var width = 300;
-    var height = 300;
+	//	var width = 300;
+    //	var height = 300;
 
     //Create SVG element
-    var svg = d3.select("body")
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height);
-	//var svg = d3.select("svg"),
-    //    margin = 200,
-    //    width = svg.attr("width") - margin,
-    //    height = svg.attr("height") - margin;
+    //var svg = d3.select("body")
+    //.append("svg")
+    //.attr("width", width)
+    //.attr("height", height);
+	var svg = d3.select("svg"),
+        margin = 200,
+        width = svg.attr("width") - margin,
+        height = svg.attr("height") - margin
 
 
     var xScale = d3.scaleBand().range ([0, width]).padding(0.4),
         yScale = d3.scaleLinear().range ([height, 0]);
 
-    var g = svg.append("g");
+    var g = svg.append("g")
+	    .attr("transform", "translate(" + 100 + "," + 100 + ")");
 
 	var data = d3.csv("data/rrt.csv", function(d) {
   		return {
