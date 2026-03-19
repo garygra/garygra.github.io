@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: garygra.github.io/garygra/sitemap.xml
+Sitemap: https://garygra.github.io/garygra//sitemap.xml
