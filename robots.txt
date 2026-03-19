@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: edgargranados.com/sitemap.xml
+Sitemap: garygra.github.io/garygra/sitemap.xml
