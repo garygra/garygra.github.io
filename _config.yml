@@ -285,7 +285,7 @@ scholar:
   first_name: [Edgar]
 
   # style: chicago-fullnote-bibliography
-  style: https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date.csl
+  dependent/style: chicago-in-text-full
 
   locale: en
 
