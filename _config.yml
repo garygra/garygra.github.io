@@ -284,7 +284,9 @@ scholar:
   last_name: [Granados]
   first_name: [Edgar]
 
-  style: chicago-fullnote-bibliography
+  # style: chicago-fullnote-bibliography
+  style: https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date.csl
+
   locale: en
 
   source: /_bibliography/
