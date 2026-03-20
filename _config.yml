@@ -204,7 +204,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  # - _pages/profiles
+  - _pages/profiles
   # - _news/
 keep_files:
   - CNAME
