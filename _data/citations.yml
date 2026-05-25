@@ -1,13 +1,13 @@
 metadata:
-  last_updated: '2026-05-06'
+  last_updated: '2026-05-25'
 papers:
   mMoIST8AAAAJ:0EnyYjriUFMC:
-    citations: 4
+    citations: 5
     title: Integrating model-based control and rl for sim2real transfer of tight insertion policies
     year: '2025'
   mMoIST8AAAAJ:5nxA0vEk-isC:
     citations: 1
-    title: State and Trajectory Estimation of Tensegrity Robots via Factor Graphs and Chebyshev Polynomials
+    title: State and trajectory estimation of tensegrity robots via factor graphs and Chebyshev polynomials
     year: '2026'
   mMoIST8AAAAJ:9yKSN-GCB0IC:
     citations: 1
@@ -26,7 +26,7 @@ papers:
     title: Machine learning for kinodynamic planning (ml4kp)
     year: '2021'
   mMoIST8AAAAJ:Tyk-4Ss8FVUC:
-    citations: 15
+    citations: 14
     title: 'Morse graphs: Topological tools for analyzing the global dynamics of robot controllers'
     year: '2022'
   mMoIST8AAAAJ:UebtZRa9Y70C:
@@ -34,7 +34,7 @@ papers:
     title: an" Eye in the Sky
     year: '2019'
   mMoIST8AAAAJ:W7OEmFMy1HYC:
-    citations: 15
+    citations: 16
     title: 'Usher: Unbiased sampling for hindsight experience replay'
     year: '2023'
   mMoIST8AAAAJ:WF5omc3nYNoC:
@@ -50,11 +50,11 @@ papers:
     title: Data-efficient characterization of the global dynamics of robot controllers with confidence guarantees
     year: '2023'
   mMoIST8AAAAJ:_FxGoFyzp5QC:
-    citations: 10
+    citations: 11
     title: 'Morals: Analysis of high-dimensional robot controllers via topological tools in a latent space'
     year: '2024'
   mMoIST8AAAAJ:d1gkVwhDpl0C:
-    citations: 37
+    citations: 38
     title: Refined Analysis of Asymptotically-Optimal Kinodynamic Planning in the State-Cost Space
     year: '2019'
   mMoIST8AAAAJ:eQOLeE2rZwMC:
