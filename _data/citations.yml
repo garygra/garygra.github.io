@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-06-03'
 papers:
   mMoIST8AAAAJ:0EnyYjriUFMC:
     citations: 5
@@ -18,7 +18,7 @@ papers:
     title: Improving kinodynamic planners for vehicular navigation with learned goal-reaching controllers
     year: '2021'
   mMoIST8AAAAJ:LkGwnXOMwfcC:
-    citations: 1
+    citations: 2
     title: ': Sampling-Based Kinodynamic Replanning and Feedback Control over Approximate, Identified Models of Vehicular Systems'
     year: '2024'
   mMoIST8AAAAJ:Se3iqnhoufwC:
@@ -26,7 +26,7 @@ papers:
     title: Machine learning for kinodynamic planning (ml4kp)
     year: '2021'
   mMoIST8AAAAJ:Tyk-4Ss8FVUC:
-    citations: 14
+    citations: 15
     title: 'Morse graphs: Topological tools for analyzing the global dynamics of robot controllers'
     year: '2022'
   mMoIST8AAAAJ:UebtZRa9Y70C:
