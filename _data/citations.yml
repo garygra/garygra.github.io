@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-10'
 papers:
   mMoIST8AAAAJ:0EnyYjriUFMC:
     citations: 5
@@ -26,7 +26,7 @@ papers:
     title: Machine learning for kinodynamic planning (ml4kp)
     year: '2021'
   mMoIST8AAAAJ:Tyk-4Ss8FVUC:
-    citations: 15
+    citations: 14
     title: 'Morse graphs: Topological tools for analyzing the global dynamics of robot controllers'
     year: '2022'
   mMoIST8AAAAJ:UebtZRa9Y70C:
@@ -34,11 +34,11 @@ papers:
     title: an" Eye in the Sky
     year: '2019'
   mMoIST8AAAAJ:W7OEmFMy1HYC:
-    citations: 16
+    citations: 15
     title: 'Usher: Unbiased sampling for hindsight experience replay'
     year: '2023'
   mMoIST8AAAAJ:WF5omc3nYNoC:
-    citations: 32
+    citations: 33
     title: A survey on the integration of machine learning with sampling-based motion planning
     year: '2022'
   mMoIST8AAAAJ:Y0pCki6q_DkC:
