@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-15'
 papers:
   mMoIST8AAAAJ:0EnyYjriUFMC:
     citations: 5
@@ -26,7 +26,7 @@ papers:
     title: Machine learning for kinodynamic planning (ml4kp)
     year: '2021'
   mMoIST8AAAAJ:Tyk-4Ss8FVUC:
-    citations: 14
+    citations: 15
     title: 'Morse graphs: Topological tools for analyzing the global dynamics of robot controllers'
     year: '2022'
   mMoIST8AAAAJ:UebtZRa9Y70C:
