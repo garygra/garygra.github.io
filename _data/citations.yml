@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-07-27'
 papers:
   mMoIST8AAAAJ:0EnyYjriUFMC:
-    citations: 5
+    citations: 6
     title: Integrating model-based control and rl for sim2real transfer of tight insertion policies
     year: '2025'
   mMoIST8AAAAJ:5nxA0vEk-isC:
-    citations: 1
+    citations: 0
     title: State and trajectory estimation of tensegrity robots via factor graphs and Chebyshev polynomials
     year: '2026'
   mMoIST8AAAAJ:9yKSN-GCB0IC:
@@ -34,11 +34,11 @@ papers:
     title: an" Eye in the Sky
     year: '2019'
   mMoIST8AAAAJ:W7OEmFMy1HYC:
-    citations: 15
+    citations: 16
     title: 'Usher: Unbiased sampling for hindsight experience replay'
     year: '2023'
   mMoIST8AAAAJ:WF5omc3nYNoC:
-    citations: 33
+    citations: 34
     title: A survey on the integration of machine learning with sampling-based motion planning
     year: '2022'
   mMoIST8AAAAJ:Y0pCki6q_DkC:
@@ -50,11 +50,11 @@ papers:
     title: Data-efficient characterization of the global dynamics of robot controllers with confidence guarantees
     year: '2023'
   mMoIST8AAAAJ:_FxGoFyzp5QC:
-    citations: 11
+    citations: 13
     title: 'Morals: Analysis of high-dimensional robot controllers via topological tools in a latent space'
     year: '2024'
   mMoIST8AAAAJ:d1gkVwhDpl0C:
-    citations: 38
+    citations: 39
     title: Refined Analysis of Asymptotically-Optimal Kinodynamic Planning in the State-Cost Space
     year: '2019'
   mMoIST8AAAAJ:eQOLeE2rZwMC:
