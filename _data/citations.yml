@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-03'
 papers:
   mMoIST8AAAAJ:0EnyYjriUFMC:
-    citations: 6
+    citations: 7
     title: Integrating model-based control and rl for sim2real transfer of tight insertion policies
     year: '2025'
   mMoIST8AAAAJ:5nxA0vEk-isC:
-    citations: 0
+    citations: 1
     title: State and trajectory estimation of tensegrity robots via factor graphs and Chebyshev polynomials
     year: '2026'
   mMoIST8AAAAJ:9yKSN-GCB0IC:
@@ -38,7 +38,7 @@ papers:
     title: 'Usher: Unbiased sampling for hindsight experience replay'
     year: '2023'
   mMoIST8AAAAJ:WF5omc3nYNoC:
-    citations: 34
+    citations: 35
     title: A survey on the integration of machine learning with sampling-based motion planning
     year: '2022'
   mMoIST8AAAAJ:Y0pCki6q_DkC:
@@ -63,7 +63,7 @@ papers:
     year: '2022'
   mMoIST8AAAAJ:hqOjcs7Dif8C:
     citations: 1
-    title: 'Kinodynamic Trajectory Following with STELA: Simultaneous Trajectory Estimation & Local Adaptation'
+    title: 'Kinodynamic trajectory following with stela: Simultaneous trajectory estimation & local adaptation'
     year: '2025'
   mMoIST8AAAAJ:qjMakFHDy7sC:
     citations: 0
